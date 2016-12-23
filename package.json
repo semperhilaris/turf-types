@@ -1,0 +1,14 @@
+{
+  "name": "@types/turf",
+  "description": "TypeScript typings for turf",
+  "version": "3.7.0",
+  "licence": "MIT",
+  "repository": "https://github.com/semperhilaris/turf-types",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "keywords": [
+    "typescript",
+    "turf"
+  ]
+}
