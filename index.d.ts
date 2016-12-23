@@ -885,7 +885,7 @@ declare module turf {
     * @param {Array<number>} breaks where to draw contours
     * @returns {FeatureCollection} a FeatureCollection of {@link Polygon} features representing isobands
     */
-    isobands(points: GeoJSON.FeatureCollection<GeoJSON.Point, z: string, breaks: Array<number>): GeoJSON.FeatureCollection<GeoJSON.Polygon>;
+    isobands(points: GeoJSON.FeatureCollection<GeoJSON.Point>, z: string, breaks: Array<number>): GeoJSON.FeatureCollection<GeoJSON.Polygon>;
 
     /**
     * Takes a triangular plane as a Polygon and a Point within that triangle and returns the z-value at that point.
